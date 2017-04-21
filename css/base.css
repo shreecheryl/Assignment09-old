@@ -31,6 +31,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline; }
+    div { margin-bottom: 20px;}
 	article, aside, details, main, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -267,10 +268,56 @@
 		font-size: 13px;
 		color: #444; }
 
+
 /* #Misc
 ================================================== */
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
+
+
+/* Cycle2
+================================================== */
+
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.cycle-slideshow { width: 100%; min-width: 200px; max-width: 420px; /*margin: 10px auto */; padding: 0; position: relative;
+    background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
+
+ }
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img { 
+    /* 
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+    position: absolute; top: 0; left: 0;
+    width: 100%; padding: 0; display: block;
+}
+
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static; z-index: 100;
+}
+
+/* pager */
+.cycle-pager { 
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; font-size: 40px; width: 18px; height: 18px; 
+    display: inline-block; color: #fcd3cf; cursor: pointer;
+}
+.cycle-pager span:hover {
+    color: #f67a6f;
+}
+.cycle-pager span.cycle-pager-active { color: #CC1C0D;}
+.cycle-pager > * { cursor: pointer;}
+
+
+
 
 

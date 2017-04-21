@@ -2,6 +2,8 @@
 $(function () {
     "use strict";
     
+    $('#responsive-menu').mobileMenu();
+    
     // General Tool Tip
     $(document).tooltip();
     
