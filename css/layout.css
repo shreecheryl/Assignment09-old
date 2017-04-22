@@ -23,7 +23,11 @@ nav			{height:125px;}
 nav ul		{margin-top:50px;text-align:right;}
 nav ul li	{display:inline;}
 nav ul li a,
-nav ul li a:visited	{padding:3px 10px;font-size:130%;text-decoration:none;color:#CC1C0D;}
+nav ul li a:visited,
+#quickNav ul li a {padding:3px 10px;font-size:130%;text-decoration:none;color:#CC1C0D;}
+
+#quickNav ul li a {font-size: 110%;}
+#quickNav ul li a:hover {text-decoration: underline;}
 /* #Page Styles
 ================================================== */
 

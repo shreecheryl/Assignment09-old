@@ -17,6 +17,14 @@ $(function () {
     
     $("#tabsManagement").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
     $("#tabsManagement li").removeClass("ui-corner-top").addClass("ui-corner-left");
+    
+    // Solutions Sticky Quick Nav
+    
+    $("#quickNav").sticky({topSpacing: 50});
+    
+    // Solution Back to Top
+    
+    $.scroll({scrollImg: true});
 
 }); // end of document ready
         

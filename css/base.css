@@ -275,8 +275,18 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
 
+/* #Back To Top
+================================================== */
+#scrollUp {
+    background-image: url("../images/top.png");
+    bottom: 20px;
+    right: 100px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+}
 
-/* Cycle2
+
+/* #Cycle2
 ================================================== */
 
 /* set border-box so that percents can be used for width, padding, etc (personal preference) */
