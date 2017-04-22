@@ -18,13 +18,9 @@ $(function () {
     $("#tabsManagement").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
     $("#tabsManagement li").removeClass("ui-corner-top").addClass("ui-corner-left");
     
-    // Solutions Sticky Quick Nav
+    // Contact Form Radio Buttons and Checkboxes
     
-    $("#quickNav").sticky({topSpacing: 50});
-    
-    // Solution Back to Top
-    
-    $.scroll({scrollImg: true});
+    $(":checkbox, :radio").checkboxradio();
 
 }); // end of document ready
         

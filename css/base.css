@@ -253,11 +253,12 @@
 		box-shadow:  0 0 3px rgba(0,0,0,.2); }
 	textarea {
 		min-height: 60px; }
+label { margin-bottom: 20px;}
 	label,
 	legend {
 		display: block;
 		font-weight: bold;
-		font-size: 13px;  }
+		font-size: 13px; }
 	select {
 		width: 220px; }
 	input[type="checkbox"] {
@@ -274,6 +275,7 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
+
 
 /* #Back To Top
 ================================================== */
