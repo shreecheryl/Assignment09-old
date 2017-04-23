@@ -18,9 +18,10 @@ $(function () {
     $("#tabsManagement").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
     $("#tabsManagement li").removeClass("ui-corner-top").addClass("ui-corner-left");
     
-    // Contact Form Radio Buttons and Checkboxes
+    // Contact Form
     
     $(":checkbox, :radio").checkboxradio();
+    $("#companysize").selectmenu();
 
 }); // end of document ready
         

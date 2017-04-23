@@ -31,9 +31,9 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline; }
-    div { margin-bottom: 20px;}
 	article, aside, details, main, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block; }
+        display: block; 
+        margin-bottom: 20px;}
 	body {
 		line-height: 1; }
 	ol, ul {
@@ -234,7 +234,7 @@
 		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
-		width: 210px;
+		width: auto;
 		max-width: 100%;
 		display: block;
 		margin-bottom: 20px;
@@ -253,14 +253,14 @@
 		box-shadow:  0 0 3px rgba(0,0,0,.2); }
 	textarea {
 		min-height: 60px; }
-label { margin-bottom: 20px;}
+    label { margin-bottom: 20px;}
 	label,
 	legend {
 		display: block;
 		font-weight: bold;
 		font-size: 13px; }
 	select {
-		width: 220px; }
+		width: 200px; }
 	input[type="checkbox"] {
 		display: inline; }
 	label span,
