@@ -25,14 +25,14 @@ $(function () {
     
     var dialog;
     dialog = $("#thankYou").dialog({
-            autoOpen: false,
-            height: 100,
-            width: 350,
-            modal: true,
-            close: function() {
-                $("#contactform").submit();
-                window.history.go(0);
-            }
+        autoOpen: false,
+        height: 100,
+        width: 350,
+        modal: true,
+        close: function () {
+            $("#contactform").submit();
+            window.history.go(0);
+        }
     });
     $(":submit").on("click", function (event) {
         event.preventDefault();
