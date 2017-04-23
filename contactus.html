@@ -42,7 +42,7 @@
 		
 		<section id="welcome" class="eleven columns">
 			<h4>Contact Us</h4>
-			<form name="contactform" action="http://www.vectacorp.com/vc/scripts/contactus.asp" method="post" class="widget">
+			<form name="contactform" action="http://www.vectacorp.com/vc/scripts/contactus.asp" method="post" class="widget" id="contactform">
 				<fieldset>
 			    <legend>Contact a Sales Representative</legend>
 			    Name:
@@ -89,15 +89,18 @@
                 
 			    Questions or comments for our sales representatives?
 			    <textarea name="questions" size="30" rows="5"></textarea>
-			    <input type="submit" name="submit" value="Submit Now">
+			    <input class="ui-button ui-widget ui-corner-all" type="submit" value="Submit now">
 		    	</fieldset>
 			</form>
 	    </section>
+	    
+	    <div id="thankYou" class="ui-widget">
+            <p>Thank you for your inquiry!</p>
+        </div>
 		
 		<section id="testimonials" class="five columns">
 			<h4>Map</h4>
 			<p>&nbsp;</p>
-
 		</section>
 	</main>
 </body>
