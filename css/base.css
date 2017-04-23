@@ -33,7 +33,7 @@
 		vertical-align: baseline; }
 	article, aside, details, main, figcaption, figure, footer, header, hgroup, menu, nav, section {
         display: block; 
-        margin-bottom: 20px;}
+        margin-bottom: 20px; } /* added by Me */
 	body {
 		line-height: 1; }
 	ol, ul {
@@ -76,6 +76,8 @@
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
+/* added by Me */
+    p:last-child { margin: 0; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
@@ -328,6 +330,7 @@
 }
 .cycle-pager span.cycle-pager-active { color: #CC1C0D;}
 .cycle-pager > * { cursor: pointer;}
+
 
 
 

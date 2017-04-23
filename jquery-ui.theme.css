@@ -61,7 +61,7 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #c5c5c5;
-	background: #f6f6f6;
+	background-color: #f6f6f6;
 	font-weight: normal;
 	color: #454545;
 }
@@ -84,7 +84,7 @@ a:visited.ui-button,
 .ui-button:hover,
 .ui-button:focus {
 	border: 1px solid #cccccc;
-	background: #ededed;
+	background-color: #ededed;
 	font-weight: normal;
 	color: #2b2b2b;
 }
@@ -219,7 +219,9 @@ a.ui-button:active,
 .ui-state-error-text .ui-icon {
 	background-image: url("images/ui-icons_cc0000_256x240.png");
 }
-.ui-button .ui-icon {
+.ui-button .ui-icon,
+.ui-button:hover .ui-icon,
+.ui-button:focus .ui-icon {
 	background-image: url("images/ui-icons_777777_256x240.png");
 }
 
@@ -447,3 +449,4 @@ a.ui-button:active,
 #accordion h3 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
