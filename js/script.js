@@ -2,6 +2,7 @@
 $(function () {
     "use strict";
     
+    // Mobile Menu
     $('#responsive-menu').mobileMenu();
     
     // General Tool Tip
@@ -14,12 +15,10 @@ $(function () {
     $("#accordion").accordion();
     
     // About Us Tabs
-    
     $("#tabsManagement").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
     $("#tabsManagement li").removeClass("ui-corner-top").addClass("ui-corner-left");
     
     // Contact Form
-    
     $(":checkbox, :radio").checkboxradio();
     $("#companysize").selectmenu();
     
@@ -41,7 +40,6 @@ $(function () {
     });
     
     // Disable Enter Key on Forms
-    
     $("form").keypress(function (event) {
         //Disable Enter key
         if (event.which === 13) {
