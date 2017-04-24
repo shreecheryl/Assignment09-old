@@ -39,6 +39,15 @@ $(function () {
         dialog.dialog("open");
         $("button").blur();
     });
+    
+    // Disable Enter Key on Forms
+    
+    $("form").keypress(function (event) {
+        //Disable Enter key
+        if (event.which === 13) {
+            return false;
+        }
+    }); 
 
 }); // end of document ready
         
