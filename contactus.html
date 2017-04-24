@@ -18,7 +18,19 @@
 	<![endif]-->
 	
     <script src="js/jquery.mobilemenu.js"></script>
+    
+    <script>
+        
+    $(function () {
+        $("form").keypress(function(event) {
+            //Disable Enter key
+            if (event.which == 13) {
+            return false;
+            }
+        });    
+    });
 
+    </script>
 </head>
 <body>
 	<main class="container">
